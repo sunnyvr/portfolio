@@ -1,0 +1,105 @@
+html *{
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+}
+
+.navbar{
+    background:#DADED4;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    color: #3C403D;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.introduction{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.card {
+    width: 300px; /* Fixed width of the card */
+    height: 200px; /* Fixed height of the card */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding drop shadow */
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff; /* White background for the card */
+}
+.intropara{
+    padding: 10px;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+}
+
+.links{
+    padding: 10px;
+    text-align: center;
+}
+
+.exp{
+    font-weight: bold;
+}
+
+.experience-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Spacing between cards */
+}
+
+.experience {
+    flex: 1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding drop shadow */
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff; /* White background for the card */
+}
+
+.experience::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.experience .date {
+    font-size: 14px;
+    font-style: italic;
+    color: #A3BCB6;
+    margin-bottom: 5px;
+}
+
+.experience .title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.experience .company {
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: px;
+}
+
+.experience .description {
+    font-size: 14px;
+}
