@@ -6,6 +6,9 @@ html *{
 body{
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
+    margin:0;
+    flex-direction: column;
 }
 
 .container {
@@ -70,6 +73,39 @@ li a{
 
 .exp{
     font-weight: bold;
+}
+
+.skills-container {
+    width: 80%; /* Adjust as needed */
+    max-width: 600px; /* Maximum width of the skills container */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+
+.skill-name {
+    font-weight: bold;
+}
+
+.skill-bar {
+    width: 100%;
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 100%;
+    background-color: #4CAF50;
+    width: 0;
+    transition: width 1s ease-in-out;
 }
 
 .experience-container {
@@ -177,4 +213,11 @@ li a{
 
 .contact-button:hover {
     background-color: #0056b3;
+}
+
+.footer {
+    background: #DADED4;
+    padding: 10px 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-top: auto; /* Push the footer to the bottom of the viewport */
 }
